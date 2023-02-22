@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int n, fact, i;
+	fact=i=1;
+	scanf("%d", &n);
+	while(i<=n)
+	{
+		fact*=i;
+		i++;		
+	}
+	printf("%d",fact);
+}
